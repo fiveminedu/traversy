@@ -3,70 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="style.css">
-    <title>Traversy Media</title>
-    <script data-ad-client="ca-pub-7701008918117978" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-</head>
-<body>
-    <header class="showcase">
-        <div class="content">
-            <img src="img/logo.png" class="logo" alt="logo">
-            <div class="title">
-                Welcome to Traversy Media
-            </div>
-            <div class="text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assu
-            </div>
-            <div id="wApp">
-                Chat
-                <a href="signIn.html">Sign In </a>
-            </div>
-        </div>
-    </header>
-
-    <!-- Services-->
-    <section class="services ">
-        <div class="container grid-3 center">
-            <div>
-                <i class="fab fa-youtube fa-3x"></i>
-                <h3>YouTube</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eius!</p>
-            </div>
-            <div>
-                <i class="fas fa-chalkboard-teacher fa-3x"></i>
-                <h3>Courses</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eius!</p>
-            </div>
-            <div>
-                <i class="fas fa-briefcase fa-3x"></i>
-                <h3>Freelancing Projects</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eius!</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- About-->
-    <section class="about bg-light">
-        <div class="container">
-            <div class="grid-2">
-                <div class="center">
-                    <i class="fas fa-laptop-code fa-10x"></i>
-                </div>
-                <div>
-                    <h3>About us</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consequuntur doloremque iste eligendi necessitatibus dolorum ea, ipsum sint illum, quam quod odio reprehenderit unde. Quod omnis ab deserunt quo ratione ad, autem esse consectetur laboriosam consequuntur sunt fugit impedit aliquam?
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="center bg-dark">
-        <p>Traversy Media &copy; 2020</p>
-
-    </footer>   
-</body>
     <script src="https://kit.fontawesome.com/04a829c29c.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="img/png" href="img/favicon.png">
+    <title>malluart sign In form</title>
+</head>
+
+
+<body>
+    <h1>Welcome to malluart.</h1>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Create Account</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your email for registration</span>
+                <input type="text" placeholder="name" />
+                <input type="email" placeholder="email" />
+                <input type="password" placeholder="password" />
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Sign In</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your account</span>
+                <input type="email" placeholder="email" />
+                <input type="password" placeholder="password" />
+                <a href="#">Forgot your password?</a>
+                <button>Sign In</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Welcome Back!</h1>
+                    <p>To keep connected with us please login with your personal info</p>
+                    <button class="ghost" id="signIn">Sign In</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>Enter your personal details and start journey with us</p>
+                    <button class="ghost" id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clr"></div>
+    <footer>
+       <p> All Rights Reserved &copy; 2020 malluart. </p>
+    </footer>
+</body>
+
+
 </html>
